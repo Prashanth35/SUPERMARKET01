@@ -1,0 +1,44 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:F="sap.ui.layout.form"
+		controllerName="binding-el-pr.BIND" xmlns:html="http://www.w3.org/1999/xhtml"
+ >
+	<Page title="Title">
+		<content>
+		
+	<F:SimpleForm id="idsmp">
+		<Label text="NAME"/>
+		<Input value="{/data/0/NAME}"/>
+		<Label text="QUALIFICATION"/>
+		<Input value="{/data/0/QULIFICATION}"/>
+		
+		<Label text="YEAR OF PASS"/>
+		<Input value="{/data/0/YEAROFPASS}"/>
+		
+		</F:SimpleForm>
+		
+		<F:SimpleForm id="idsmp2">
+		<Label text="NAME"/>
+		<Input value="{NAME}"/>
+		<Label text="QUALIFICATION"/>
+		<Input value="{QULIFICATION}"/>
+		
+		<Label text="YEAR OF PASS"/>
+		<Input value="{YEAROFPASS}"/>
+		
+		</F:SimpleForm>
+		<ComboBox change="passing">
+		
+		<core:Item text="1" key="1"/>
+		
+		<core:Item text="2" key="2"/>
+		<core:Item text="3" key="3"/>
+		<core:Item text="4" key="4"/>
+		
+		</ComboBox>
+		
+	
+		
+
+	
+		</content>
+	</Page>
+</core:View>

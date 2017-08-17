@@ -1,0 +1,27 @@
+{
+ "data" :[
+ 
+          {    
+          "NAME" : "V.PRASHANTH",
+          "QULIFICATION" : "B.TECH",
+          "YEAROFPASS" : "2015"
+          },
+          {    
+          "NAME" : "CHANDHU",
+          "QULIFICATION" : "B.TECH",
+          "YEAROFPASS" : "2015"
+          },
+          {    
+          "NAME" : "ANUSHA",
+          "QULIFICATION" : "B.TECH",
+          "YEAROFPASS" : "2015"
+          },
+          {    
+          "NAME" : "JYOSHNA",
+          "QULIFICATION" : "B.TECH",
+          "YEAROFPASS" : "2015"
+          }
+ ]
+
+
+}
